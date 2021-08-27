@@ -149,3 +149,45 @@ padding: 10px;
 .happy_menu h3{
   color: rgb(255, 68, 0);
 }
+.footer{
+width: 100%;
+}
+.subscribe{
+  background-image: url("/Assets/backgrounds/subscribe.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+}
+.social{
+  background-color: hsl(9, 83%, 56%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.subscribe p{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  
+}
+button{
+  background-color: tomato;
+  height: 30px;
+  border-radius: 5px;
+  width: 150px;
+  
+}
+#email{
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  left: -400px;
+}
