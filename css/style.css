@@ -110,6 +110,26 @@ body{
   border: 15px solid gainsboro;
   padding: 10px;
   margin: 20px;
-
- 
+}
+.combination{
+  background-image: url(/Assets/backgrounds/foodsBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.selectmenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
 }
